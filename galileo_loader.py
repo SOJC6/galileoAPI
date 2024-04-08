@@ -311,7 +311,6 @@ class product:
                 if ds2:
                     dsOut = xr.concat([dsOut, ds2], dim="Epoch")
 
-
         self.dataset = dsOut
 
     def loadBS(self, dates, variables=None):
